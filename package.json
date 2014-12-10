@@ -1,0 +1,23 @@
+{
+  "name": "browser-googl",
+  "version": "1.0.0",
+  "description": "This library let you short or expand URLs using goo.gl API. You can use this module in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "goo.gl",
+    "googl",
+    "shortener",
+    "short"
+  ],
+  "author": "Miguel Moraleda <contact@miguelmoraleda.com> (http://as3.miguelmoraleda.com)",
+  "license": "MIT",
+  "dependencies": {
+    "browser-request": "^0.3.3"
+  },
+  "devDependencies": {
+    "domready": "^1.0.7"
+  }
+}
