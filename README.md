@@ -1,6 +1,6 @@
 ## browser-googl
 
-This module let you short URLs using the goo.gl API.
+This module let you short or expand URLs using the goo.gl API. You can use this module in the browser and even you could use browserify with it.
 
 ## Install
 
