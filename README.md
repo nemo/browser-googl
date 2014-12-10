@@ -1,5 +1,7 @@
 ## browser-googl
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/miguelmoraleda/browser-googl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This module let you short or expand URLs using the goo.gl API. You can use this module in the browser and even you could use browserify with it.
 
 ## Install

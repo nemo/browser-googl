@@ -1,7 +1,7 @@
 {
   "name": "browser-googl",
   "version": "1.0.0",
-  "description": "This library let you short or expand URLs using goo.gl API. You can use this module in the browser.",
+  "description": "This library let you short or expand URLs using goo.gl API. You can use this module is browserifable.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
