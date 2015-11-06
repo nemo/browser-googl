@@ -9,14 +9,14 @@ module.exports = {
       exports.API_KEY = key;
   },
   short: function(url, onComplete) {
-    var url = 'https://www.googleapis.com/urlshortener/v1/url';
+    var fullUrl = 'https://www.googleapis.com/urlshortener/v1/url';
     if (exports.API_KEY)
-      url += '?key=' + exports.API_KEY;
+      fullUrl += '?key=' + exports.API_KEY;
 
     request(
       {
         method:'POST',
-        url:url,
+        url:fullUrl,
         body:'{\"longUrl\": \"' + url + '\" }',
         json:true
       },
@@ -31,7 +31,7 @@ module.exports = {
 
     request(
       {
-        method:'GET', 
+        method:'GET',
         url:fullUrl,
         json:true
       },
