@@ -13,11 +13,15 @@ module.exports = {
     if (exports.API_KEY)
       fullUrl += '?key=' + exports.API_KEY;
 
+    var body = JSON.stringify({
+      longUrl: url
+    });
+
     request(
       {
         method:'POST',
         url:fullUrl,
-        body:'{\"longUrl\": \"' + url + '\" }',
+        body:body,
         json:true
       },
       function(err, response, body) {
